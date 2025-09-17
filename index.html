@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ctrlshift2026</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+            font-family: 'Iceland', sans-serif;
+            font-size:2em;
+            color: #fff;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .center-image {
+            max-width: 90%;
+            max-height: 70vh;
+            display: block;
+            margin-bottom: 0px;
+        }
+
+        .neon-text {
+            /* font-size: 2em; */
+            text-align: left;
+            color: #fff;
+            text-shadow:
+                0 0 7px #f9f9f9,
+                0 0 10px #fbeaa6,
+                0 0 42px #fddb53,
+                0 0 82px #ffcc00;
+        }
+    </style>
+</head>
+<body>
+    <img src="ctrlshiftNeonYellow.svg" alt="Centered Image" class="center-image">
+    <p>
+        $ cat &#60;&#60;EOF &#62; ctrlshift.sh<br>
+        #!/bin/bash<br>
+        echo "<span class="neon-text">This is ctrlshift 2026.</span>"<br>
+        echo "<span class="neon-text">Date: June 8th-14th, Naples</span>"<br>
+        echo "<a href="https://www.napuleth.org/archive/2025"><span class="neon-text">Previous edition here.</span></a>"<br>
+        echo "<span class="neon-text">Stay Tuned.</span>"<br>
+        EOF<br>
+    </p>
